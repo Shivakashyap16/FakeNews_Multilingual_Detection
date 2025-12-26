@@ -11,7 +11,6 @@ The project uses **TF-IDF feature extraction** and **Naïve Bayes classification
 
 Follow these steps to run the project on your local machine.
 
----
 
 ## Prerequisites
 
@@ -19,7 +18,6 @@ Follow these steps to run the project on your local machine.
 - Basic knowledge of Python and command-line usage  
 - A modern web browser (Chrome / Edge / Firefox)
 
----
 
 ## Steps
 
@@ -112,9 +110,8 @@ This project is ideal for:
 
 The **Multilingual Fake News Detection** system demonstrates how text mining and machine learning techniques can be effectively combined with a web interface to solve real-world problems. The project emphasizes usability, clarity, and academic relevance while maintaining a professional and modern appearance.
 
----
 
-© 2025 Multilingual Fake News Detection | DWDM Mini Project
+
 
 
 
