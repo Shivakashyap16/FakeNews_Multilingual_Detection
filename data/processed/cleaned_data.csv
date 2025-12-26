@@ -1,0 +1,15 @@
+text,label,language
+The government announced a new education policy today,REAL,en
+The prime minister addressed the nation regarding development,REAL,en
+This news is completely fake and misleading,FAKE,en
+The article spreads false information on social media,FAKE,en
+
+सरकार ने नई शिक्षा नीति की घोषणा की,REAL,hi
+प्रधानमंत्री ने देश को संबोधित किया,REAL,hi
+यह खबर पूरी तरह से झूठी है,FAKE,hi
+यह लेख सोशल मीडिया पर गलत जानकारी फैलाता है,FAKE,hi
+
+ప్రభుత్వం కొత్త విద్యా విధానాన్ని ప్రకటించింది,REAL,te
+ప్రధాన మంత్రి దేశాన్ని ఉద్దేశించి ప్రసంగించారు,REAL,te
+ఈ వార్త పూర్తిగా తప్పు,FAKE,te
+ఈ వ్యాసం సోషల్ మీడియాలో తప్పుడు సమాచారం వ్యాప్తి చేస్తుంది,FAKE,te

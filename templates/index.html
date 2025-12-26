@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multilingual Fake News Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="background"></div>
+
+<div class="card">
+    <h1>Fake News Detection</h1>
+    <p class="subtitle">Multilingual News Verification</p>
+
+    <form method="POST">
+        <textarea name="news" placeholder="Paste news content here (English, Hindi or Telugu)..." required>{{ news_text }}</textarea>
+
+        <div class="button-group">
+            <button type="submit" name="analyze">Analyze News</button>
+            <button type="submit" name="clear" class="clear-btn">Clear Text</button>
+        </div>
+    </form>
+
+
+    {% if result %}
+    <div class="result-box animate">
+        <div class="row">
+            <span class="label">Detected Language</span>
+            <span class="value">{{ language }}</span>
+        </div>
+
+        <div class="row">
+            <span class="label">Prediction</span>
+            <span class="value {{ 'real' if result=='REAL NEWS' else 'fake' }}">
+                {{ result }}
+            </span>
+        </div>
+    </div>
+    {% endif %}
+
+</div>
+
+
+</body>
+</html>

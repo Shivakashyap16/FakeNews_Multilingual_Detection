@@ -1,0 +1,8 @@
+numpy
+pandas
+scikit-learn
+nltk
+indic-nlp-library
+joblib
+langdetect
+flask
